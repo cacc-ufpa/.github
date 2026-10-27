@@ -40,6 +40,9 @@ jobs:
         run: bundle exec rougify style github > layouts/syntax.css
         working-directory: .nanoc
 
+      - name: Set up Typst
+        uses: typst-community/setup-typst@v3
+
       - name: Compile Nanoc site
         run: bundle exec nanoc compile
         working-directory: .nanoc
