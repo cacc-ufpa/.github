@@ -11,6 +11,11 @@
 #set page(
 	paper: "a4",
 	margin: (top: 2.4cm, bottom: 2.5cm, left: 3cm, right: 2.75cm),
+	header: align(right)[
+		_*Aviso:* esse documento *não* deve ser tomado como verídico._
+
+		_#link("https://github.com/cacc-ufpa/.github/issues/3")_
+	]
 )
 
 #set text(
